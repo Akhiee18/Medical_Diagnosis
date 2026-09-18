@@ -1,0 +1,98 @@
+.pos-f-t {
+    position: relative;
+}
+
+.collapse {
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust the value according to your design */
+    left: 0;
+    z-index: 1000;
+    transition: width 0.3s ease; /* Add transition for smooth animation */
+    overflow: hidden;
+    width: 0; /* Initially collapsed */
+}
+
+.navbar-toggler {
+    position: relative;
+}
+
+
+
+/* style.css */
+
+.bg-custom {
+    background-color: #383f81; /* Violet background color */
+}
+
+.backgroundImage {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: aqua;
+}
+
+
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.select-option, .image-upload-box {
+    width: calc(50% - 10px); /* Adjust according to your preference */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-upload-box {
+    border: 2px dashed #ccc; /* Dashed border with gray color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding for content inside */
+    margin: 20px; /* Add margin for spacing */
+    text-align: center; /* Center align text */
+}
+
+.preview-image {
+    margin-top: 20px;
+}
+
+.preview-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.coming-soon {
+    display: none;
+}
+.example{
+    margin:10px;
+    border: 5px solid black;
+    border-color: black;
+    border-width:solid black;
+    height: 200px;
+    width: 200px;
+    
+}
+.one {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above the navbar */
+}
+.pos-f-t {
+    position: relative;
+    z-index: 1001; /* Ensure it's above other content */
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 0 !important;
+    z-index: 1100;
+}
